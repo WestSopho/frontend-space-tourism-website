@@ -14,6 +14,7 @@ export default function TechImage({ srcMobile, srcDesktop, alt }: TechImageProps
                 alt={alt}
                 width={768}
                 height={310}
+                priority={true}
                 className="w-full lg:hidden object-cover"
             />
             <Image 
@@ -21,6 +22,7 @@ export default function TechImage({ srcMobile, srcDesktop, alt }: TechImageProps
                 alt={alt}
                 width={515}
                 height={527}
+                priority={true}
                 className="hidden lg:block"
             />
         </div>
